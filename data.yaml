@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/projectbensu/dataset/train/images
+val: /content/drive/MyDrive/projectbensu/dataset/valid/images
+test: /content/drive/MyDrive/projectbensu/dataset/test/images
+
+nc: 4
+names: ['Armed', 'Armed-cull-', 'Unarmed', 'Unarmed-cull-']
+
+roboflow:
+  workspace: new-workspace-alhl9
+  project: armed-unarmed-test
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-alhl9/armed-unarmed-test/dataset/6
