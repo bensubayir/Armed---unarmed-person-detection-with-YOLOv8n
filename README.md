@@ -8,3 +8,5 @@ Roboflow platformundan almış olduğum hazır veri seti ile YOLOv8 modelini kul
 
 2. Install ultralytics and load pre-trained model. You can choose your model version according to your needs, I preferred the YOLOv8n model because of its speed then train the model.
 <img src="resim_2024-08-14_185939440.png" width="auto">
+You need to configure your YAML file according to the paths of the training, test, and validation data in your project. For example;
+<img src="[resim_2024-08-14_185939440.png](https://github.com/bensubayir/Armed---unarmed-person-detection-with-YOLOv8n/blob/main/data.yaml)" width="auto">
